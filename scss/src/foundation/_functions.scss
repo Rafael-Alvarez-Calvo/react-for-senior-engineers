@@ -1,0 +1,11 @@
+
+/*=============================================
+=                 Functions                   =
+=============================================*/
+
+@function get-shadows($key: 'base') {
+    @return map-get($shadows, $key);
+}
+
+/*=====  End of Functions  ======*/
+
