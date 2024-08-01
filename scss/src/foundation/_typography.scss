@@ -1,0 +1,92 @@
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+
+/* #region HEADING FONTS VARIABLES */
+
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+
+$h-1-font-size: var(--dse-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--dse-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--dse-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--dse-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--dse-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--dse-h6-font-size, $h-6) !default;
+
+/*=============================================
+=            Heading font weights                =
+=============================================*/
+
+$h-1-font-weight: var(--dse-h1-text-weight, $fw-black) !default;
+$h-2-font-weight: var(--dse-h2-text-weight, $fw-semibold) !default;
+$h-3-font-weight: var(--dse-h3-text-weight, $fw-bold) !default;
+$h-4-font-weight: var(--dse-h4-text-weight, $fw-medium) !default;
+$h-5-font-weight: var(--dse-h5-text-weight, $fw-normal) !default;
+$h-6-font-weight: var(--dse-h6-text-weight, $fw-light) !default;
+
+/*=============================================
+=            Heading font line height         =
+============================================= */
+
+$h-1-font-lh: var(--dse-h-1-font-lh, $lh-144) !default;
+$h-2-font-lh: var(--dse-h-2-font-lh, $lh-90) !default;
+$h-3-font-lh: var(--dse-h-3-font-lh, $lh-72) !default;
+$h-4-font-lh: var(--dse-h-4-font-lh, $lh-52) !default;
+$h-5-font-lh: var(--dse-h-5-font-lh, $lh-36) !default;
+$h-6-font-lh: var(--dse-h-6-font-lh, $lh-30) !default;
+
+/*=============================================
+=         Heading font letter spacing         =
+============================================= */
+
+$h-1-font-ls: var(--dse-h-1-font-ls, $ls-n-125) !default;
+$h-2-font-ls: var(--dse-h-2-font-ls, $ls-n-050) !default;
+$h-3-font-ls: var(--dse-h-3-font-ls, $ls-0) !default;
+$h-4-font-ls: var(--dse-h-4-font-ls, $ls-025) !default;
+$h-5-font-ls: var(--dse-h-5-font-ls, $ls-0) !default;
+$h-6-font-ls: var(--dse-h-6-font-ls, $ls-025) !default;
+
+/* #endregion */
+
+/* #region BODY FONTS VARIABLES */
+
+/*=============================================
+=            Body font family                  =
+=============================================*/
+$body-font-family: var(--dse-body-font-family, $playfair) !default;
+
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+
+$body-font-size: var(--dse-body-font-size, $fs-base) !default;
+$body-font-size-lg: var(--dse-body-font-size-lg, $fs-lg) !default;
+
+/*=============================================
+=            Body font weight                 =
+=============================================*/
+
+$body-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+
+/*=============================================
+=          Body font line height              =
+=============================================*/
+
+$body-font-lh-sm: var(--dse-body-font-lh-sm, $lh-20) !default;
+$body-font-lh-lg: var(--dse-body-font-lh-lg, $lh-28) !default;
+
+/*=============================================
+=          Body font letter spacing           =
+=============================================*/
+
+$body-font-ls-sm: var(--dse-body-font-ls-sm, $ls-025) !default;
+$body-font-ls-lg: var(--dse-body-font-ls-lg, $ls-050) !default;
+
+/* #endregion */
